@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito+Sans:opsz,wght@6..12,300&family=Salsa&display=swap');
+
+/* CSS "Header/Home" */
+header{ 
+    margin: 0;
+    background-color: #FFF0DF;
+}
+/* logo */
+.img1{
+    width: 15%;
+    height: 15%;
+    justify-content: center;
+    margin-left: 43%;
+}
+/* navegador*/
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid #f8d5ae;
+    border-bottom: 5px solid #f8d5ae;
+}
+li{
+    color: black;
+    padding: 5px;
+    display: inline-flex;
+    justify-content: space-around;    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#navegador:visited { 
+    text-decoration: underline;
+    color: black;
+}
+p{
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/*productos y video*/
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+.slider-item img {
+    flex: 0 0 100%;
+    width: 50%;
+    object-fit: cover;
+    scroll-snap-align: center;
+  }
+.video{ 
+    width: 8%;
+    height: 8%;
+    margin-left: 0%;
+}
+
+/*CSS "Historia" */
+h2{
+    font-size: 15px;
+    text-align: left;
+    font-family: indie flowers, cursive;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+/*FOMULARIO DE CONTACTO:*/
+.contact-form{ 
+    margin: 15px;
+    color: black;
+}
+.contacto{ 
+    display: flex;
+    flex-direction: column;
+}
+.dueña1{ 
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+}
+.dueña2{ 
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+}
+.dueña11, .dueña22{ 
+    font-size: 15px;
+    text-align: left;
+}
+
+/* CSS "Otros" */
+.numero{
+    font-size: 20px ;
+    color: black;
+    text-align: left;
+}
+#mapa{ 
+  width: 100%;
+  height: 90%;
+
+}
+.ubic{
+    font-size: 20px ;
+    color: black;
+    text-align: left;
+}
+
+/* CSS "Servicios" */
+.serv{ 
+    width: 60%;
+    height: 50%;
+    align-items: center;
+    margin-left: 20%;
+}
+
+/*CSS FOOTER*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff0df;
+  }
+  
+  .social-media-logos {
+    display: flex;
+  }
+
+  .social-info div{ 
+    flex-direction: column;
+  }
+  
+  .company-logo {
+    text-align: center;
+    width: 10%;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .contact-info div {
+    margin-bottom: 10px;
+  }
+
+/* MEDIDAS QUERY*/
+@media only screen and (max-width: 420px) { 
+    a{ 
+    font-size: 15px;
+   } 
+   .video{ 
+   display: none;
+   }
+
+}
+@media only screen and (min-width: 421px) and (max-width: 980px) {
+    a{ 
+        font-size: 20px;
+    } 
+}
