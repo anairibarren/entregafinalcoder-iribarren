@@ -136,7 +136,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     background-color: #fff0df;
     border-top: 5px solid #f8d5ae;
   }
@@ -148,13 +148,16 @@ footer {
   }
  .company-logo {
     text-align: center;
-    width: 10%;
-    height: 10%;
+    width: 30px
+  }
+  .redes-info{ 
+    font-size: 15px;
   }
 .contact-info {
     display: flex;
     flex-direction: column;
     text-align: left;
+    font-size: 15px;
   }
 .contact-info div {
     margin-bottom: 10px;
@@ -167,6 +170,9 @@ footer {
    } 
    .video{ 
    display: none;
+   }
+   .company-logo{ 
+    display: none;
    }
 
 }
