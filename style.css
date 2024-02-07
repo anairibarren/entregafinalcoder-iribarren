@@ -1,19 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito+Sans:opsz,wght@6..12,300&family=Salsa&display=swap');
 
-/* CSS "Header/Home" */
+/*Header*/
 header{ 
     margin: 0;
     background-color: #FFF0DF;
 }
-/* logo */
+/*Logo*/
 .img1{
     width: 15%;
     height: 15%;
     justify-content: center;
     margin-left: 43%;
 }
-/* navegador*/
+/*Navbar*/
 ul{
     padding: 0;
     margin: 0;
@@ -32,45 +32,35 @@ a{
     text-decoration: none;
     color: black;
     font-size: 20px;
-}
-#navegador:visited { 
-    text-decoration: underline;
-    color: black;
+    font-family: nunito;
 }
 p{
     font-size: 15px;
     text-align: left;
     font-family: 'Nunito Sans', sans-serif;
 }
-
-/*productos y video*/
-.slider-container {
-    display: flex;
-    width: 100%;
-    height: 50vh;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-  }
-  
-.slider-item img {
-    flex: 0 0 100%;
-    width: 50%;
-    object-fit: cover;
-    scroll-snap-align: center;
-  }
-.video{ 
-    width: 8%;
-    height: 8%;
-    margin-left: 0%;
+/*Video*/
+.video{
+    text-align: center;
 }
-
-
-/*HISTORIA*/
-.history{ 
+/*H2*/
+.h2-home, .history, .service, .products{ 
     text-align: center;
     font-family: nunito;
     font-size: 30px;
 }
+/*Productos*/
+.container{
+    width: 20%;
+    height: 20%;
+}
+/*Servicios*/
+.serv{ 
+    width: 30%;
+    height: 20%;
+    text-align: center;
+}
+/*Historia*/
 .dueñas{ 
     display: flex;
 }
@@ -84,19 +74,7 @@ p{
     width: 30%;
     height: 30%;
 }
-/* SERVICIO */
-.service{ 
-    text-align: center;
-    font-family: nunito;
-    font-size: 30px;
-}
-.serv{ 
-    width: 30%;
-    height: 20%;
-    text-align: center;
-}
-
-/*FOMULARIO DE CONTACTO*/
+/*Form de contacto*/
 .contact-form{ 
     margin: 15px;
     color: black;
@@ -107,8 +85,7 @@ p{
     display: flex;
     flex-direction: column;
 }
-
-/* UBICACION Y CONTACTO */
+/*Ubicacion y contacto*/
 h2{
     font-size: 25px;
     text-align: left;
@@ -130,8 +107,7 @@ h2{
     text-align: left;
     margin-left: 10px;
 }
-
-/*CSS FOOTER*/
+/*Footer*/
 footer {
     display: flex;
     justify-content: space-between;
@@ -163,7 +139,7 @@ footer {
     margin-bottom: 10px;
   }
 
-/* MEDIDAS QUERY*/
+/* MEDIAS QUERY*/
 @media only screen and (max-width: 420px) { 
     a{ 
     font-size: 15px;

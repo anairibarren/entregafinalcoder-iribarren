@@ -7,7 +7,7 @@
     <title>My Home | Productos </title>
 </head>
 <body>
-    <!--El encabezado cuenta con el logo de la empresa y su navegador interior.-->
+<!--Inicio del Header-->
     <header>
         <section>
             <div class="item-relative"><img src="../iconos/logo empresa.png" alt="logo de la marca" class="img1"></div>
@@ -25,24 +25,70 @@
             </nav>
         </section>
     </header>
-<!--Algunos productos que la empresa ofrece.-->
- <section>
-       <h2><strong><em>Productos:</em></strong></h2> 
-    </section>
-    <section >
-        <h3>Producto 1:</h3> 
-        <img src="../multimedia/vela1.jpeg" alt="product1" class="img1">
-        <p>Vela de soja aromatizada en contenedor de vidrio.</p>
-        <h3>Producto 2:</h3> 
-        <img src="../multimedia/vela2.jpeg" alt="product2" class="img1">
-        <p>Vela de soja aromatizada en contenedor de vidrio.</p>
-        <h3>Producto 3:</h3> 
-        <img src="../multimedia/vela3.jpeg" alt="product3" class="img1">
-        <p>Vela de soja aromatizada en contenedor de vidrio.</p>
-    </section>
-
+<!--Fin del Header-->
+<!--Inicio de la section.-->
+<section>
+  <div class="container pt-5 pb-5 cProductos">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Productos</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-xl-4 colProd">
+        <div class="producto" data-bs-toggle="modal" data-bs-target="#producto1">
+          <img src="../multimedia/vela1.jpeg" class="img-fluid producto__img" alt="Vela A317">
+          <div class="producto__icon">
+            <i class="fas fa-search" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="descripcion">
+          <h3 class="descripcion__title">
+            Vela A317:
+          </h3>
+          <p class="descripcion__ingr">
+             Vela de soja hecha a mano en contenedor de vidrio para iluminar tu hogar
+          </p>
+        </div>
+      <div class="col-md-6 col-xl-4 colProd">
+        <div class="producto" data-bs-toggle="modal" data-bs-target="#producto2">
+          <img src="../multimedia/vela2.jpeg" class="img-fluid producto__img" alt="Vela Chupito">
+          <div class="producto__icon">
+            <i class="fas fa-search" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="descripcion">
+          <h3 class="descripcion__title">
+            Vela Chupito:
+          </h3>
+          <p class="descripcion__ingr">
+             Vela de soja hecha a mano en contenedor de vidrio para iluminar tu hogar
+          </p>
+        </div>
+      <div class="col-md-6 col-xl-4 colProd">
+        <div class="producto" data-bs-toggle="modal" data-bs-target="#producto3">
+          <img src="../multimedia/vela3.jpeg" class="img-fluid producto__img" alt="Vela A307">
+          <div class="producto__icon">
+            <i class="fas fa-search" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="descripcion">
+          <h3 class="descripcion__title">
+            Vela A307:
+          </h3>
+          <p class="descripcion__ingr">
+             Vela de soja hecha a mano en contenedor de vidrio para iluminar tu hogar
+          </p>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Fin de la section-->
 </body>
-<!--PIE DE PAGINA-->
+<!--Inicio del Footer-->
 <footer>
     <div class="social-media-logos">
        <div class="redes-info">
@@ -69,4 +115,5 @@
       </div>
     </div>
 </footer>
+<!--Fin del Footer-->
 </html>
