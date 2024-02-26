@@ -1,0 +1,169 @@
+/*Header*/
+header {
+  background-color: rgb(240, 224, 197);
+}
+header div .img1 {
+  text-align: center;
+  width: 20%;
+  height: 15%;
+  padding: 10px;
+  object-fit: cover;
+  margin: 0 695px;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  header div .img1 {
+    margin: 3px 95px;
+  }
+}
+header nav ul {
+  border-bottom: 5px solid rgb(239, 191, 133);
+  border-top: 5px solid rgb(239, 191, 133);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+}
+header nav ul li a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  header nav ul li a {
+    size: 8px;
+  }
+}
+
+/*Body*/
+/*Video*/
+section .video {
+  text-align: center;
+}
+section .video video {
+  width: 60%;
+  height: 45%;
+  padding: 10px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 850px) {
+  section .video {
+    width: 30%;
+    height: 20%;
+  }
+}
+
+/*Carrusel*/
+.h2-home {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+section #carouselExample .carousel-inner .carousel-item img {
+  width: 20%;
+  height: 36%;
+}
+@media only screen and (max-width: 850px) {
+  section #carouselExample .carousel-inner .carousel-item {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+/*Footer*/
+footer {
+  background-color: rgb(240, 224, 197);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+  /*Redes sociales*/
+  /*Logo de la empresa*/
+  /*Informacion de contacto*/
+}
+footer .social-media-logos {
+  background-color: rgb(240, 224, 197);
+}
+footer .social-media-logos .redes-info img {
+  width: 4%;
+  height: 4%;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  footer .social-media-logos .redes-info img {
+    margin: 3px 95px;
+  }
+}
+footer .social-media-logos .redes-info a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .social-media-logos .redes-info a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .social-media-logos .redes-info a {
+    size: 8px;
+  }
+}
+footer .company-logo img {
+  text-align: center;
+  width: 8%;
+  height: 8%;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  footer .company-logo img {
+    margin: 3px 95px;
+  }
+}
+footer .contact-info .contact-mail a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .contact-mail a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .contact-mail a {
+    size: 8px;
+  }
+}
+footer .contact-info .phone-number a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .phone-number a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .phone-number a {
+    size: 8px;
+  }
+}
+footer .contact-info .location-pin a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .location-pin a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .location-pin a {
+    size: 8px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
