@@ -1,7 +1,3 @@
-@import "componentes/historia";
-@import "componentes/servicios";
-@import "componentes/otros";
-@import "componentes/productos";
 
 /*Header*/
 header{
@@ -45,47 +41,25 @@ header{
         }
     }
 }
-
-/*Body*/
-/*Video*/
+/*Body - Historia*/
 section{ 
-    .video{ 
+    .history{ 
+        color: black;
         text-align: center;
-        video{ 
-            width: 60%;
-            height: 45%;
-            padding: 10px;  
-            object-fit: cover;
-        }
-        @media only screen and (max-width: 850px) { 
-            width: 30%;
-            height: 20%;
-        }
+        text-decoration: underline;
     }
-}
-/*Carrusel*/
-.h2-home{ 
-    color: black;
-    text-align: center;
-    text-decoration: underline;
-}
-section{
-    #carouselExample{
-        .carousel-inner{ 
-            .carousel-item{ 
-                img{ 
-                    width: 20%;
-                    height: 36%; 
-                }
-                @media only screen and (max-width: 850px) { 
-                    width: 20%;
-                    height: 20%;
-                }
+    .dueñas{
+        .img-dueña{ 
+            width: 25%;
+            height: 30%;
+            margin: 5px;
+            .dueñas1, .dueña2{ 
+                text-decoration: none;
+                color: black;
             }
         }
     }
 }
-
 /*Footer*/
 footer{ 
     background-color: rgb(240, 224, 197);
@@ -177,4 +151,3 @@ footer{
     }
 }
 }
-

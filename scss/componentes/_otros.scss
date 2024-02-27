@@ -1,7 +1,3 @@
-@import "componentes/historia";
-@import "componentes/servicios";
-@import "componentes/otros";
-@import "componentes/productos";
 
 /*Header*/
 header{
@@ -45,47 +41,29 @@ header{
         }
     }
 }
-
-/*Body*/
-/*Video*/
-section{ 
-    .video{ 
-        text-align: center;
-        video{ 
-            width: 60%;
-            height: 45%;
-            padding: 10px;  
-            object-fit: cover;
-        }
-        @media only screen and (max-width: 850px) { 
-            width: 30%;
-            height: 20%;
-        }
-    }
-}
-/*Carrusel*/
-.h2-home{ 
+/*Body - Otros*/
+#contacto{ 
     color: black;
     text-align: center;
     text-decoration: underline;
 }
-section{
-    #carouselExample{
-        .carousel-inner{ 
-            .carousel-item{ 
-                img{ 
-                    width: 20%;
-                    height: 36%; 
-                }
-                @media only screen and (max-width: 850px) { 
-                    width: 20%;
-                    height: 20%;
-                }
-            }
+.location-info{ 
+    #ubicacion{ 
+        color: black;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .location-pin{ 
+        iframe{ 
+            width: 35%;
+            height: 65%;
+            margin: 5px;
+        }
+        p{ 
+            color: black;
         }
     }
 }
-
 /*Footer*/
 footer{ 
     background-color: rgb(240, 224, 197);
@@ -177,4 +155,3 @@ footer{
     }
 }
 }
-

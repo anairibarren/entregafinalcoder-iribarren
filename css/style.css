@@ -1,3 +1,635 @@
+@charset "UTF-8";
+/*Header*/
+header {
+  background-color: rgb(240, 224, 197);
+}
+header div .img1 {
+  text-align: center;
+  width: 20%;
+  height: 15%;
+  padding: 10px;
+  object-fit: cover;
+  margin: 0 695px;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  header div .img1 {
+    margin: 3px 95px;
+  }
+}
+header nav ul {
+  border-bottom: 5px solid rgb(239, 191, 133);
+  border-top: 5px solid rgb(239, 191, 133);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+}
+header nav ul li a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  header nav ul li a {
+    size: 8px;
+  }
+}
+
+/*Body - Historia*/
+section .history {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+section .dueñas .img-dueña {
+  width: 25%;
+  height: 30%;
+  margin: 5px;
+}
+section .dueñas .img-dueña .dueñas1, section .dueñas .img-dueña .dueña2 {
+  text-decoration: none;
+  color: black;
+}
+
+/*Footer*/
+footer {
+  background-color: rgb(240, 224, 197);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+  /*Redes sociales*/
+  /*Logo de la empresa*/
+  /*Informacion de contacto*/
+}
+footer .social-media-logos {
+  background-color: rgb(240, 224, 197);
+}
+footer .social-media-logos .redes-info img {
+  width: 4%;
+  height: 4%;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  footer .social-media-logos .redes-info img {
+    margin: 3px 95px;
+  }
+}
+footer .social-media-logos .redes-info a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .social-media-logos .redes-info a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .social-media-logos .redes-info a {
+    size: 8px;
+  }
+}
+footer .company-logo img {
+  text-align: center;
+  width: 8%;
+  height: 8%;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  footer .company-logo img {
+    margin: 3px 95px;
+  }
+}
+footer .contact-info .contact-mail a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .contact-mail a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .contact-mail a {
+    size: 8px;
+  }
+}
+footer .contact-info .phone-number a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .phone-number a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .phone-number a {
+    size: 8px;
+  }
+}
+footer .contact-info .location-pin a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .location-pin a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .location-pin a {
+    size: 8px;
+  }
+}
+
+/*Header*/
+header {
+  background-color: rgb(240, 224, 197);
+}
+header div .img1 {
+  text-align: center;
+  width: 20%;
+  height: 15%;
+  padding: 10px;
+  object-fit: cover;
+  margin: 0 695px;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  header div .img1 {
+    margin: 3px 95px;
+  }
+}
+header nav ul {
+  border-bottom: 5px solid rgb(239, 191, 133);
+  border-top: 5px solid rgb(239, 191, 133);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+}
+header nav ul li a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  header nav ul li a {
+    size: 8px;
+  }
+}
+
+/*Body - Servicios*/
+section .service {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+section div h3 {
+  color: black;
+  text-decoration: underline;
+  size: 35px;
+}
+@media only screen and (width: 480px) {
+  section div h3 {
+    size: 15px;
+  }
+}
+section div p {
+  color: black;
+  size: 25px;
+}
+@media only screen and (width: 480px) {
+  section div p {
+    size: 15px;
+  }
+}
+section div div img {
+  width: 45%;
+  height: 25%;
+}
+@media only screen and (width: 480px) {
+  section div div img {
+    width: 25%;
+    height: 10%;
+  }
+}
+
+/*Footer*/
+footer {
+  background-color: rgb(240, 224, 197);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+  /*Redes sociales*/
+  /*Logo de la empresa*/
+  /*Informacion de contacto*/
+}
+footer .social-media-logos {
+  background-color: rgb(240, 224, 197);
+}
+footer .social-media-logos .redes-info img {
+  width: 4%;
+  height: 4%;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  footer .social-media-logos .redes-info img {
+    margin: 3px 95px;
+  }
+}
+footer .social-media-logos .redes-info a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .social-media-logos .redes-info a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .social-media-logos .redes-info a {
+    size: 8px;
+  }
+}
+footer .company-logo img {
+  text-align: center;
+  width: 8%;
+  height: 8%;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  footer .company-logo img {
+    margin: 3px 95px;
+  }
+}
+footer .contact-info .contact-mail a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .contact-mail a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .contact-mail a {
+    size: 8px;
+  }
+}
+footer .contact-info .phone-number a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .phone-number a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .phone-number a {
+    size: 8px;
+  }
+}
+footer .contact-info .location-pin a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .location-pin a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .location-pin a {
+    size: 8px;
+  }
+}
+
+/*Header*/
+header {
+  background-color: rgb(240, 224, 197);
+}
+header div .img1 {
+  text-align: center;
+  width: 20%;
+  height: 15%;
+  padding: 10px;
+  object-fit: cover;
+  margin: 0 695px;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  header div .img1 {
+    margin: 3px 95px;
+  }
+}
+header nav ul {
+  border-bottom: 5px solid rgb(239, 191, 133);
+  border-top: 5px solid rgb(239, 191, 133);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+}
+header nav ul li a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  header nav ul li a {
+    size: 8px;
+  }
+}
+
+/*Body - Otros*/
+#contacto {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.location-info #ubicacion {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+.location-info .location-pin iframe {
+  width: 35%;
+  height: 65%;
+  margin: 5px;
+}
+.location-info .location-pin p {
+  color: black;
+}
+
+/*Footer*/
+footer {
+  background-color: rgb(240, 224, 197);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+  /*Redes sociales*/
+  /*Logo de la empresa*/
+  /*Informacion de contacto*/
+}
+footer .social-media-logos {
+  background-color: rgb(240, 224, 197);
+}
+footer .social-media-logos .redes-info img {
+  width: 4%;
+  height: 4%;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  footer .social-media-logos .redes-info img {
+    margin: 3px 95px;
+  }
+}
+footer .social-media-logos .redes-info a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .social-media-logos .redes-info a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .social-media-logos .redes-info a {
+    size: 8px;
+  }
+}
+footer .company-logo img {
+  text-align: center;
+  width: 8%;
+  height: 8%;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  footer .company-logo img {
+    margin: 3px 95px;
+  }
+}
+footer .contact-info .contact-mail a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .contact-mail a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .contact-mail a {
+    size: 8px;
+  }
+}
+footer .contact-info .phone-number a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .phone-number a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .phone-number a {
+    size: 8px;
+  }
+}
+footer .contact-info .location-pin a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .location-pin a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .location-pin a {
+    size: 8px;
+  }
+}
+
+/*Header*/
+header {
+  background-color: rgb(240, 224, 197);
+}
+header div .img1 {
+  text-align: center;
+  width: 20%;
+  height: 15%;
+  padding: 10px;
+  object-fit: cover;
+  margin: 0 695px;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  header div .img1 {
+    margin: 3px 95px;
+  }
+}
+header nav ul {
+  border-bottom: 5px solid rgb(239, 191, 133);
+  border-top: 5px solid rgb(239, 191, 133);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+}
+header nav ul li a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  header nav ul li a {
+    size: 8px;
+  }
+}
+
+/*Body - Productos*/
+.container .row .col-lg-12 h1 {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  size: 35px;
+}
+@media only screen and (width: 480px) {
+  .container .row .col-lg-12 h1 {
+    size: 15px;
+  }
+}
+.container .row .col-3 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+}
+.container .row .col-3 img {
+  width: 36%;
+  height: 64%;
+}
+.container .row .col-3 h2 {
+  color: black;
+  text-decoration: underline;
+}
+.container .row .col-3 p {
+  color: black;
+}
+
+/*Footer*/
+footer {
+  background-color: rgb(240, 224, 197);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 5px;
+  /*Redes sociales*/
+  /*Logo de la empresa*/
+  /*Informacion de contacto*/
+}
+footer .social-media-logos {
+  background-color: rgb(240, 224, 197);
+}
+footer .social-media-logos .redes-info img {
+  width: 4%;
+  height: 4%;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  footer .social-media-logos .redes-info img {
+    margin: 3px 95px;
+  }
+}
+footer .social-media-logos .redes-info a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .social-media-logos .redes-info a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .social-media-logos .redes-info a {
+    size: 8px;
+  }
+}
+footer .company-logo img {
+  text-align: center;
+  width: 8%;
+  height: 8%;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+@media only screen and (max-width: 850px) {
+  footer .company-logo img {
+    margin: 3px 95px;
+  }
+}
+footer .contact-info .contact-mail a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .contact-mail a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .contact-mail a {
+    size: 8px;
+  }
+}
+footer .contact-info .phone-number a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .phone-number a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .phone-number a {
+    size: 8px;
+  }
+}
+footer .contact-info .location-pin a {
+  size: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .contact-info .location-pin a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  footer .contact-info .location-pin a {
+    size: 8px;
+  }
+}
+
 /*Header*/
 header {
   background-color: rgb(240, 224, 197);
