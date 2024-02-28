@@ -5,41 +5,42 @@
 
 /*Header*/
 header{
-    background-color: rgb(240, 224, 197);
+    background-color: #fff0df;
     div{ 
-        .img1{ 
-            text-align: center;
-            width: 20%;
-            height: 15%;
-            padding: 10px;
-            object-fit: cover;
-            margin: 0 695px;
-            border-radius: 40%;
+        .image-logo{ 
+            width: 15%;
+            height: 10%;
+            margin: 0 40%;
             @media only screen and (max-width: 850px) { 
-                margin: 3px 95px;
+                margin: 3px 335px ;
             }
         }
     }
     nav{     
         ul{
-            border-bottom: 5px solid rgb(239, 191, 133);
-            border-top: 5px solid rgb(239, 191, 133);
+            border-bottom: 5px solid #fbd2a1;
+            border-top: 5px solid #fbd2a1;
             display: flex;
             justify-content: space-around;
             width: 100%;
             margin: 0 5px;
-            
-            li{              
+            @media only screen and (max-width: 480px ){
+                margin: 0 0;
+            }
+            li{       
                 a{
-                    size: 15px;
+
                     text-decoration: none;
                     color: black;
+                    font-size: 20px;
+                    font-family: "Annapurna SIL", serif;
                     &:hover{ 
                         text-decoration: underline;
                     }
+                    size: 35px;
                     @media only screen and (max-width: 480px){ 
-                        size: 8px;
-                    }
+                    font-size: 10px;
+                    }   
                 }
             }
         }
@@ -52,12 +53,12 @@ section{
     .video{ 
         text-align: center;
         video{ 
-            width: 60%;
+            width: 50%;
             height: 45%;
             padding: 10px;  
             object-fit: cover;
         }
-        @media only screen and (max-width: 850px) { 
+        @media only screen and (max-width: 650px) { 
             width: 30%;
             height: 20%;
         }
@@ -68,14 +69,15 @@ section{
     color: black;
     text-align: center;
     text-decoration: underline;
+    size: 15px;
 }
 section{
-    #carouselExample{
+    #carousel{
         .carousel-inner{ 
             .carousel-item{ 
                 img{ 
-                    width: 20%;
-                    height: 36%; 
+                    width: 100px;
+                    height: auto; 
                 }
                 @media only screen and (max-width: 850px) { 
                     width: 20%;
@@ -85,69 +87,78 @@ section{
         }
     }
 }
-
+/*Productos Varios*/
+.product-varios{ 
+    size: 15px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+.grid{ 
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+    .card{ 
+        .card-item-top{ }
+        .card-body{ 
+            .card-text{ 
+                size: 15px;
+            }
+        }
+    }
+}
 /*Footer*/
 footer{ 
-    background-color: rgb(240, 224, 197);
+    background-color: #fff0df;
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin: 0 5px;
 /*Redes sociales*/
-.social-media-logos{ 
-    background-color: rgb(240, 224, 197);;
-    .redes-info{
-        img{ 
-            width: 4%;
-            height: 4%;
-            padding: 10px;
-            object-fit: cover;
-            border-radius: 40%;
-            @media only screen and (max-width: 850px) { 
+    .social-media-logos{ 
+        background-color: #fff0df;
+        div{
+            img{ 
+                width: 10%;
+                height: 10%;
+                padding: 10px;
+                border-radius: 40%;
+                @media only screen and (max-width: 850px) { 
                 margin: 3px 95px;
+                }
+            }
+        a{ 
+                size: 15px;
+                text-decoration: none;
+                color: black;
+                &:hover{ 
+                    text-decoration: underline;
+                }
+                @media only screen and (max-width: 480px){ 
+                    size: 8px;
+                }
             }
         }
-        a{ 
-            size: 15px;
-            text-decoration: none;
-            color: black;
-            &:hover{ 
-                text-decoration: underline;
-            }
-            @media only screen and (max-width: 480px){ 
-               size: 8px;
-            }
-         }
     }
-}
-/*Logo de la empresa*/
-.company-logo{ 
-    img{ 
-        text-align: center;
-            width: 8%;
-            height: 8%;
-            padding: 10px;
-            object-fit: cover;
-            border-radius: 40%;
-            @media only screen and (max-width: 850px) { 
-                margin: 3px 95px;
-            }
-    }
-}
+
 /*Informacion de contacto*/
-.contact-info {
-    .contact-mail{ 
-        a{ 
-            size: 15px;
-            text-decoration: none;
-            color: black;
-            &:hover{ 
-                text-decoration: underline;
+    .contact-info {
+        text-align: center;
+        .contact-mail{ 
+            a{ 
+                size: 15px;
+                text-decoration: none;
+                color: black;
+                &:hover{ 
+                    text-decoration: underline;
+                }
+                @media only screen and (max-width: 480px){ 
+                size: 8px;
+                }
             }
-            @media only screen and (max-width: 480px){ 
-               size: 8px;
-            }
-         }
+        }
     }
     .phone-number{ 
         a{ 
@@ -176,5 +187,3 @@ footer{
          }
     }
 }
-}
-

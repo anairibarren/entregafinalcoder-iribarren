@@ -1,167 +1,30 @@
 
-/*Header*/
-header{
-    background-color: rgb(240, 224, 197);
-    div{ 
-        .img1{ 
-            text-align: center;
-            width: 20%;
-            height: 15%;
-            padding: 10px;
-            object-fit: cover;
-            margin: 0 695px;
-            border-radius: 40%;
-            @media only screen and (max-width: 850px) { 
-                margin: 3px 95px;
-            }
-        }
-    }
-    nav{     
-        ul{
-            border-bottom: 5px solid rgb(239, 191, 133);
-            border-top: 5px solid rgb(239, 191, 133);
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-            margin: 0 5px;
-            
-            li{              
-                a{
-                    size: 15px;
-                    text-decoration: none;
-                    color: black;
-                    &:hover{ 
-                        text-decoration: underline;
-                    }
-                    @media only screen and (max-width: 480px){ 
-                        size: 8px;
-                    }
-                }
-            }
-        }
-    }
-}
 /*Body - Productos*/
-.container{ 
-    .row {
-        .col-lg-12{ 
-            h1{ 
-                color: black;
-                text-align: center;
-                text-decoration: underline;
-                size: 35px;
-                @media only screen and (width: 480px){ 
-                    size: 15px;
-                }
-            }
-        }
-        .col-3{ 
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-            margin: 0 5px;
-            img{ 
-                width: 36%;
-                height: 64%;
-            }
-            h2{ 
-                color: black;
-                text-decoration: underline;
-            }
-            p{ 
-                color: black;
-            }
-        }
-    }
+.products-title{ 
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
 }
-/*Footer*/
-footer{ 
-    background-color: rgb(240, 224, 197);
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0 5px;
-/*Redes sociales*/
-.social-media-logos{ 
-    background-color: rgb(240, 224, 197);;
-    .redes-info{
-        img{ 
-            width: 4%;
-            height: 4%;
-            padding: 10px;
-            object-fit: cover;
-            border-radius: 40%;
-            @media only screen and (max-width: 850px) { 
-                margin: 3px 95px;
-            }
-        }
-        a{ 
-            size: 15px;
-            text-decoration: none;
-            color: black;
-            &:hover{ 
-                text-decoration: underline;
-            }
-            @media only screen and (max-width: 480px){ 
-               size: 8px;
-            }
-         }
-    }
-}
-/*Logo de la empresa*/
-.company-logo{ 
-    img{ 
-        text-align: center;
-            width: 8%;
-            height: 8%;
-            padding: 10px;
-            object-fit: cover;
-            border-radius: 40%;
-            @media only screen and (max-width: 850px) { 
-                margin: 3px 95px;
-            }
-    }
-}
-/*Informacion de contacto*/
-.contact-info {
-    .contact-mail{ 
-        a{ 
-            size: 15px;
-            text-decoration: none;
-            color: black;
-            &:hover{ 
-                text-decoration: underline;
-            }
-            @media only screen and (max-width: 480px){ 
-               size: 8px;
-            }
-         }
-    }
-    .phone-number{ 
-        a{ 
-            size: 15px;
-            text-decoration: none;
-            color: black;
-            &:hover{ 
-                text-decoration: underline;
-            }
-            @media only screen and (max-width: 480px){ 
-               size: 8px;
-            }
-         }
-    }
-    .location-pin{ 
-        a{ 
-            size: 15px;
-            text-decoration: none;
-            color: black;
-            &:hover{ 
-                text-decoration: underline;
-            }
-            @media only screen and (max-width: 480px){ 
-               size: 8px;
-            }
-         }
-    }
-}
-}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, minmax(200px, auto));
+    grid-gap: 20px;
+  }
+
+  h2{ 
+    text-decoration: underline;
+  }
+
+  .product {
+    background-color: #fff0df;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    font-size: 15px;
+  }
+
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
