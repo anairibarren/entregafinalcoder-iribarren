@@ -74,14 +74,15 @@ section{
 section{
     #carousel{
         .carousel-inner{ 
+            
             .carousel-item{ 
                 img{ 
                     width: 100px;
                     height: auto; 
                 }
-                @media only screen and (max-width: 850px) { 
-                    width: 20%;
-                    height: 20%;
+                @media only screen and (max-width: 480px) { 
+                    width: 60%;
+                    height: 50%
                 }
             }
         }
@@ -89,7 +90,7 @@ section{
 }
 /*Productos Varios*/
 .product-varios{ 
-    size: 15px;
+    font-size: 15px;
     color: black;
     text-align: center;
     text-decoration: underline;
@@ -100,89 +101,103 @@ section{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, auto);
     gap: 10px;
+    @media only screen and (max-width: 870px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        padding: 10px;
+    }
     .card{ 
-        .card-item-top{ }
+        
         .card-body{ 
             .card-text{ 
-                size: 15px;
+                font-size: 15px;
+                @media only screen and (max-width: 480px) {
+                    font-size: 10px;
+                }  
             }
         }
     }
+        
 }
 /*Footer*/
 footer{ 
     background-color: #fff0df;
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    margin: 0 5px;
+
 /*Redes sociales*/
     .social-media-logos{ 
         background-color: #fff0df;
-        div{
-            img{ 
-                width: 10%;
-                height: 10%;
-                padding: 10px;
-                border-radius: 40%;
-                @media only screen and (max-width: 850px) { 
-                margin: 3px 95px;
-                }
-            }
-        a{ 
-                size: 15px;
-                text-decoration: none;
+        padding: 10px;
+        .instagram-info{
+            .i-link {
+                font-size: 15px;
                 color: black;
                 &:hover{ 
                     text-decoration: underline;
                 }
-                @media only screen and (max-width: 480px){ 
-                    size: 8px;
+            }
+        }
+        .facebook-info{ 
+            .f-link{ 
+                font-size: 15px;
+                color: black;
+                &:hover {
+                    text-decoration: underline;
                 }
             }
         }
     }
-
+/*Logo de la compañia*/
+    .company-logo{
+        img{ 
+            width: 25%;
+            height: auto;
+            border-radius: 15px;
+            align-items: center;
+        }
+    }
 /*Informacion de contacto*/
     .contact-info {
         text-align: center;
+        padding: 10px;
         .contact-mail{ 
             a{ 
-                size: 15px;
+                font-size: 15px;
                 text-decoration: none;
                 color: black;
                 &:hover{ 
                     text-decoration: underline;
                 }
                 @media only screen and (max-width: 480px){ 
-                size: 8px;
+                font-size: 8px;
                 }
             }
         }
     }
     .phone-number{ 
         a{ 
-            size: 15px;
+            font-size: 15px;
             text-decoration: none;
             color: black;
             &:hover{ 
                 text-decoration: underline;
             }
             @media only screen and (max-width: 480px){ 
-               size: 8px;
+               font-size: 8px;
             }
          }
     }
     .location-pin{ 
         a{ 
-            size: 15px;
+            font-size: 15px;
             text-decoration: none;
             color: black;
             &:hover{ 
                 text-decoration: underline;
             }
             @media only screen and (max-width: 480px){ 
-               size: 8px;
+               font-size: 8px;
             }
          }
     }

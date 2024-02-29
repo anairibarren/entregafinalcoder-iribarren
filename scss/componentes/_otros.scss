@@ -1,157 +1,25 @@
 
-/*Header*/
-header{
-    background-color: rgb(240, 224, 197);
-    div{ 
-        .img1{ 
-            text-align: center;
-            width: 20%;
-            height: 15%;
-            padding: 10px;
-            object-fit: cover;
-            margin: 0 695px;
-            border-radius: 40%;
-            @media only screen and (max-width: 850px) { 
-                margin: 3px 95px;
-            }
-        }
-    }
-    nav{     
-        ul{
-            border-bottom: 5px solid rgb(239, 191, 133);
-            border-top: 5px solid rgb(239, 191, 133);
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-            margin: 0 5px;
-            
-            li{              
-                a{
-                    size: 15px;
-                    text-decoration: none;
-                    color: black;
-                    &:hover{ 
-                        text-decoration: underline;
-                    }
-                    @media only screen and (max-width: 480px){ 
-                        size: 8px;
-                    }
-                }
-            }
-        }
-    }
-}
 /*Body - Otros*/
 #contacto{ 
     color: black;
     text-align: center;
     text-decoration: underline;
 }
+.contact-form{ 
+    align-items: center;
+    padding: 15px;
+}
 .location-info{ 
-    #ubicacion{ 
-        color: black;
-        text-align: center;
-        text-decoration: underline;
-    }
-    .location-pin{ 
-        iframe{ 
-            width: 35%;
-            height: 65%;
-            margin: 5px;
-        }
-        p{ 
-            color: black;
-        }
-    }
-}
-/*Footer*/
-footer{ 
-    background-color: rgb(240, 224, 197);
+    padding: 15px;
+    box-sizing: border-box ;
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0 5px;
-/*Redes sociales*/
-.social-media-logos{ 
-    background-color: rgb(240, 224, 197);;
-    .redes-info{
-        img{ 
-            width: 4%;
-            height: 4%;
-            padding: 10px;
-            object-fit: cover;
-            border-radius: 40%;
-            @media only screen and (max-width: 850px) { 
-                margin: 3px 95px;
-            }
-        }
-        a{ 
-            size: 15px;
-            text-decoration: none;
-            color: black;
-            &:hover{ 
-                text-decoration: underline;
-            }
-            @media only screen and (max-width: 480px){ 
-               size: 8px;
-            }
-         }
+    align-items: center;
+    iframe{ 
+        width: 50%;
+        height: auto;
     }
-}
-/*Logo de la empresa*/
-.company-logo{ 
-    img{ 
-        text-align: center;
-            width: 8%;
-            height: 8%;
-            padding: 10px;
-            object-fit: cover;
-            border-radius: 40%;
-            @media only screen and (max-width: 850px) { 
-                margin: 3px 95px;
-            }
+    .location{ 
+        margin-left: 30px;
+        font-size: 15px;
     }
-}
-/*Informacion de contacto*/
-.contact-info {
-    .contact-mail{ 
-        a{ 
-            size: 15px;
-            text-decoration: none;
-            color: black;
-            &:hover{ 
-                text-decoration: underline;
-            }
-            @media only screen and (max-width: 480px){ 
-               size: 8px;
-            }
-         }
-    }
-    .phone-number{ 
-        a{ 
-            size: 15px;
-            text-decoration: none;
-            color: black;
-            &:hover{ 
-                text-decoration: underline;
-            }
-            @media only screen and (max-width: 480px){ 
-               size: 8px;
-            }
-         }
-    }
-    .location-pin{ 
-        a{ 
-            size: 15px;
-            text-decoration: none;
-            color: black;
-            &:hover{ 
-                text-decoration: underline;
-            }
-            @media only screen and (max-width: 480px){ 
-               size: 8px;
-            }
-         }
-    }
-}
 }

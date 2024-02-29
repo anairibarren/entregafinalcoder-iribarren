@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Body - Historia*/
 .history-title {
   font-size: 35px;
@@ -42,46 +43,6 @@
   font-size: 15px;
 }
 
-/*Header*/
-header {
-  background-color: rgb(240, 224, 197);
-}
-header div .img1 {
-  text-align: center;
-  width: 20%;
-  height: 15%;
-  padding: 10px;
-  object-fit: cover;
-  margin: 0 695px;
-  border-radius: 40%;
-}
-@media only screen and (max-width: 850px) {
-  header div .img1 {
-    margin: 3px 95px;
-  }
-}
-header nav ul {
-  border-bottom: 5px solid rgb(239, 191, 133);
-  border-top: 5px solid rgb(239, 191, 133);
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin: 0 5px;
-}
-header nav ul li a {
-  size: 15px;
-  text-decoration: none;
-  color: black;
-}
-header nav ul li a:hover {
-  text-decoration: underline;
-}
-@media only screen and (max-width: 480px) {
-  header nav ul li a {
-    size: 8px;
-  }
-}
-
 /*Body - Otros*/
 #contacto {
   color: black;
@@ -89,110 +50,24 @@ header nav ul li a:hover {
   text-decoration: underline;
 }
 
-.location-info #ubicacion {
-  color: black;
-  text-align: center;
-  text-decoration: underline;
-}
-.location-info .location-pin iframe {
-  width: 35%;
-  height: 65%;
-  margin: 5px;
-}
-.location-info .location-pin p {
-  color: black;
+.contact-form {
+  align-items: center;
+  padding: 15px;
 }
 
-/*Footer*/
-footer {
-  background-color: rgb(240, 224, 197);
+.location-info {
+  padding: 15px;
+  box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin: 0 5px;
-  /*Redes sociales*/
-  /*Logo de la empresa*/
-  /*Informacion de contacto*/
+  align-items: center;
 }
-footer .social-media-logos {
-  background-color: rgb(240, 224, 197);
+.location-info iframe {
+  width: 50%;
+  height: auto;
 }
-footer .social-media-logos .redes-info img {
-  width: 4%;
-  height: 4%;
-  padding: 10px;
-  object-fit: cover;
-  border-radius: 40%;
-}
-@media only screen and (max-width: 850px) {
-  footer .social-media-logos .redes-info img {
-    margin: 3px 95px;
-  }
-}
-footer .social-media-logos .redes-info a {
-  size: 15px;
-  text-decoration: none;
-  color: black;
-}
-footer .social-media-logos .redes-info a:hover {
-  text-decoration: underline;
-}
-@media only screen and (max-width: 480px) {
-  footer .social-media-logos .redes-info a {
-    size: 8px;
-  }
-}
-footer .company-logo img {
-  text-align: center;
-  width: 8%;
-  height: 8%;
-  padding: 10px;
-  object-fit: cover;
-  border-radius: 40%;
-}
-@media only screen and (max-width: 850px) {
-  footer .company-logo img {
-    margin: 3px 95px;
-  }
-}
-footer .contact-info .contact-mail a {
-  size: 15px;
-  text-decoration: none;
-  color: black;
-}
-footer .contact-info .contact-mail a:hover {
-  text-decoration: underline;
-}
-@media only screen and (max-width: 480px) {
-  footer .contact-info .contact-mail a {
-    size: 8px;
-  }
-}
-footer .contact-info .phone-number a {
-  size: 15px;
-  text-decoration: none;
-  color: black;
-}
-footer .contact-info .phone-number a:hover {
-  text-decoration: underline;
-}
-@media only screen and (max-width: 480px) {
-  footer .contact-info .phone-number a {
-    size: 8px;
-  }
-}
-footer .contact-info .location-pin a {
-  size: 15px;
-  text-decoration: none;
-  color: black;
-}
-footer .contact-info .location-pin a:hover {
-  text-decoration: underline;
-}
-@media only screen and (max-width: 480px) {
-  footer .contact-info .location-pin a {
-    size: 8px;
-  }
+.location-info .location {
+  margin-left: 30px;
+  font-size: 15px;
 }
 
 /*Body - Productos*/
@@ -299,16 +174,16 @@ section #carousel .carousel-inner .carousel-item img {
   width: 100px;
   height: auto;
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 480px) {
   section #carousel .carousel-inner .carousel-item {
-    width: 20%;
-    height: 20%;
+    width: 60%;
+    height: 50%;
   }
 }
 
 /*Productos Varios*/
 .product-varios {
-  size: 15px;
+  font-size: 15px;
   color: black;
   text-align: center;
   text-decoration: underline;
@@ -321,8 +196,20 @@ section #carousel .carousel-inner .carousel-item img {
   grid-template-rows: repeat(4, auto);
   gap: 10px;
 }
+@media only screen and (max-width: 870px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    padding: 10px;
+  }
+}
 .grid .card .card-body .card-text {
-  size: 15px;
+  font-size: 15px;
+}
+@media only screen and (max-width: 480px) {
+  .grid .card .card-body .card-text {
+    font-size: 10px;
+  }
 }
 
 /*Footer*/
@@ -330,43 +217,40 @@ footer {
   background-color: #fff0df;
   display: flex;
   justify-content: space-around;
-  width: 100%;
-  margin: 0 5px;
   /*Redes sociales*/
+  /*Logo de la compañia*/
   /*Informacion de contacto*/
 }
 footer .social-media-logos {
   background-color: #fff0df;
-}
-footer .social-media-logos div img {
-  width: 10%;
-  height: 10%;
   padding: 10px;
-  border-radius: 40%;
 }
-@media only screen and (max-width: 850px) {
-  footer .social-media-logos div img {
-    margin: 3px 95px;
-  }
-}
-footer .social-media-logos div a {
-  size: 15px;
-  text-decoration: none;
+footer .social-media-logos .instagram-info .i-link {
+  font-size: 15px;
   color: black;
 }
-footer .social-media-logos div a:hover {
+footer .social-media-logos .instagram-info .i-link:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 480px) {
-  footer .social-media-logos div a {
-    size: 8px;
-  }
+footer .social-media-logos .facebook-info .f-link {
+  font-size: 15px;
+  color: black;
+}
+footer .social-media-logos .facebook-info .f-link:hover {
+  text-decoration: underline;
+}
+footer .company-logo img {
+  width: 25%;
+  height: auto;
+  border-radius: 15px;
+  align-items: center;
 }
 footer .contact-info {
   text-align: center;
+  padding: 10px;
 }
 footer .contact-info .contact-mail a {
-  size: 15px;
+  font-size: 15px;
   text-decoration: none;
   color: black;
 }
@@ -375,11 +259,11 @@ footer .contact-info .contact-mail a:hover {
 }
 @media only screen and (max-width: 480px) {
   footer .contact-info .contact-mail a {
-    size: 8px;
+    font-size: 8px;
   }
 }
 footer .phone-number a {
-  size: 15px;
+  font-size: 15px;
   text-decoration: none;
   color: black;
 }
@@ -388,11 +272,11 @@ footer .phone-number a:hover {
 }
 @media only screen and (max-width: 480px) {
   footer .phone-number a {
-    size: 8px;
+    font-size: 8px;
   }
 }
 footer .location-pin a {
-  size: 15px;
+  font-size: 15px;
   text-decoration: none;
   color: black;
 }
@@ -401,7 +285,7 @@ footer .location-pin a:hover {
 }
 @media only screen and (max-width: 480px) {
   footer .location-pin a {
-    size: 8px;
+    font-size: 8px;
   }
 }
 
