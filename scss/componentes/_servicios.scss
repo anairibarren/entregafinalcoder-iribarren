@@ -16,6 +16,9 @@
     }
     .service-info{ 
         margin-left: 30px;
-        font-size: 18px;
+        font-size: 15px;
+        @media only screen and (max-widht: 480px) {
+            font-size: 10px;
+        }
     }
 }
