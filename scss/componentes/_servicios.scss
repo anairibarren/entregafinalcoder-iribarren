@@ -10,15 +10,27 @@
     box-sizing: border-box ;
     display: flex;
     align-items: center;
-    
+    @media only screen and (max-widht: 840px) {
+        img{ 
+            width: 20%;
+        }
+        .service-info{ 
+            font-size: 10px;
+            
+        }
+    }
     img{ 
-        width: 38%;
+        width: 28%;
         height: auto;
+        @media only screen and (max-widht: 840px){
+            width: 15px;
+            height: auto;
+        }
     }
     .service-info{ 
         margin-left: 30px;
         font-size: 15px;
-        @media only screen and (max-widht: 480px) {
+        @media only screen and (max-widht: 750px) {
             font-size: 10px;
         }
     }

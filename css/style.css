@@ -39,15 +39,29 @@
   display: flex;
   align-items: center;
 }
+@media only screen and (max-widht: 840px) {
+  .service img {
+    width: 20%;
+  }
+  .service .service-info {
+    font-size: 10px;
+  }
+}
 .service img {
-  width: 38%;
+  width: 28%;
   height: auto;
+}
+@media only screen and (max-widht: 840px) {
+  .service img {
+    width: 15px;
+    height: auto;
+  }
 }
 .service .service-info {
   margin-left: 30px;
   font-size: 15px;
 }
-@media only screen and (max-widht: 480px) {
+@media only screen and (max-widht: 750px) {
   .service .service-info {
     font-size: 10px;
   }
@@ -204,19 +218,13 @@ section #carousel .carousel-inner .carousel-item img {
 }
 
 /*Productos Varios*/
-.product-varios {
-  font-size: 15px;
-  color: black;
-  text-align: center;
-  text-decoration: underline;
-}
-
 .grid {
   display: grid;
   justify-content: space-between;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
   gap: 10px;
+  padding: 35px 0px;
 }
 @media only screen and (max-width: 870px) {
   .grid {
@@ -262,10 +270,10 @@ footer .social-media-logos .facebook-info .f-link:hover {
   text-decoration: underline;
 }
 footer .company-logo img {
-  width: 25%;
+  width: 35%;
   height: auto;
   border-radius: 15px;
-  align-items: center;
+  margin: 0, 35px;
 }
 footer .contact-info {
   text-align: center;
