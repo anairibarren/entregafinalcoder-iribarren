@@ -13,12 +13,13 @@
   align-items: center;
 }
 .history img {
-  width: 35%;
+  width: 28%;
   height: auto;
+  border: 20px solid #fff0df;
 }
 .history .history-info {
   margin-left: 30px;
-  font-size: 15px;
+  font-size: 18px;
 }
 @media only screen and (max-widht: 480px) {
   .history .history-info {
@@ -38,6 +39,7 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 @media only screen and (max-widht: 840px) {
   .service img {
@@ -50,6 +52,7 @@
 .service img {
   width: 28%;
   height: auto;
+  border: 20px solid #fff0df;
 }
 @media only screen and (max-widht: 840px) {
   .service img {
@@ -59,7 +62,7 @@
 }
 .service .service-info {
   margin-left: 30px;
-  font-size: 15px;
+  font-size: 18px;
 }
 @media only screen and (max-widht: 750px) {
   .service .service-info {
@@ -70,8 +73,8 @@
 /*Body - Otros*/
 #contacto {
   color: black;
-  text-align: center;
   text-decoration: underline;
+  font-size: 30px;
 }
 
 .contact-form {
@@ -82,7 +85,7 @@
 
 #ubicacion {
   color: black;
-  text-align: center;
+  font-size: 30px;
   text-decoration: underline;
 }
 
@@ -93,8 +96,8 @@
   align-items: center;
 }
 .location-info iframe {
-  width: 50%;
-  height: auto;
+  width: 80%;
+  height: 90%;
 }
 .location-info .location {
   margin-left: 30px;
@@ -116,8 +119,9 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, minmax(200px, auto));
+  grid-template-rows: repeat(3, minmax(200px, auto));
   grid-gap: 20px;
+  margin: 10px 5px;
 }
 
 h2 {
@@ -148,7 +152,7 @@ header div .image-logo {
 }
 @media only screen and (max-width: 850px) {
   header div .image-logo {
-    margin: 3px 335px;
+    margin: 0 30px;
   }
 }
 header nav ul {
@@ -159,9 +163,10 @@ header nav ul {
   width: 100%;
   margin: 0 5px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 850px) {
   header nav ul {
     margin: 0 0;
+    padding: 0;
   }
 }
 header nav ul li a {
@@ -174,9 +179,9 @@ header nav ul li a {
 header nav ul li a:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 850px) {
   header nav ul li a {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
@@ -191,10 +196,9 @@ section .video video {
   padding: 10px;
   object-fit: cover;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   section .video {
-    width: 30%;
-    height: 20%;
+    display: none;
   }
 }
 
@@ -203,7 +207,12 @@ section .video video {
   color: black;
   text-align: center;
   text-decoration: underline;
-  size: 15px;
+  font-size: 35px;
+}
+@media only screen and (max-width: 850px) {
+  .h2-home {
+    font-size: 20px;
+  }
 }
 
 section #carousel .carousel-inner .carousel-item img {
@@ -212,8 +221,8 @@ section #carousel .carousel-inner .carousel-item img {
 }
 @media only screen and (max-width: 480px) {
   section #carousel .carousel-inner .carousel-item {
-    width: 60%;
-    height: 50%;
+    width: 40%;
+    height: 30%;
   }
 }
 
@@ -221,20 +230,21 @@ section #carousel .carousel-inner .carousel-item img {
 .grid {
   display: grid;
   justify-content: space-between;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
   gap: 10px;
-  padding: 35px 0px;
+  margin: 30px;
+  padding: 30px;
 }
 @media only screen and (max-width: 870px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    padding: 10px;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 15px 10px;
   }
 }
 .grid .card .card-body .card-text {
-  font-size: 15px;
+  font-size: 18px;
 }
 @media only screen and (max-width: 480px) {
   .grid .card .card-body .card-text {
@@ -273,7 +283,12 @@ footer .company-logo img {
   width: 35%;
   height: auto;
   border-radius: 15px;
-  margin: 0, 35px;
+  margin: 0 35px;
+}
+@media only screen and (max-width: 850px) {
+  footer .company-logo img {
+    margin: 0 150px;
+  }
 }
 footer .contact-info {
   text-align: center;

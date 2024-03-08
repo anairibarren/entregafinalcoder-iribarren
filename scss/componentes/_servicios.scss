@@ -10,6 +10,7 @@
     box-sizing: border-box ;
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
     @media only screen and (max-widht: 840px) {
         img{ 
             width: 20%;
@@ -22,6 +23,7 @@
     img{ 
         width: 28%;
         height: auto;
+        border: 20px solid #fff0df;
         @media only screen and (max-widht: 840px){
             width: 15px;
             height: auto;
@@ -29,7 +31,7 @@
     }
     .service-info{ 
         margin-left: 30px;
-        font-size: 15px;
+        font-size: 18px;
         @media only screen and (max-widht: 750px) {
             font-size: 10px;
         }
