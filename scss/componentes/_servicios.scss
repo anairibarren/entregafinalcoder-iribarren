@@ -1,21 +1,27 @@
 
 /*Body - Servicios*/
 .service-title{ 
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     text-decoration: underline;
 }
-.service{ 
+.service{
     padding: 15px;
     box-sizing: border-box ;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
     @media only screen and (max-width: 480px) {
-        .service-info:hover p{ 
-            opacity: 1;
-            
-        }
+        .service-info{
+            font-size: 10px;
+            p{ 
+                display: none;
+            }
+            h2{ 
+                font-size: 15px;
+            }
+        } 
+    }
     }
     img{ 
         width: 28%;
@@ -30,4 +36,4 @@
         margin-left: 30px;
         font-size: 18px;
     }
-}
+
