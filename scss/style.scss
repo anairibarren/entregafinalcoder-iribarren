@@ -4,9 +4,7 @@
 @import "componentes/productos";
 
 /*Header*/
-body{
-    background: linear-gradient(to bottom, #fbd2a1, #fff0df); 
-}
+
 header{
     background-color: #fff0df;
     div{ 
@@ -15,7 +13,7 @@ header{
             height: 10%;
             margin: 0 40%;
             @media only screen and (max-width: 480px) { 
-                margin: 0 350px;
+                margin: 0 150px;
             }
         }
     }
@@ -27,7 +25,7 @@ header{
             justify-content: space-around;
             width: 100%;
             margin: 0 5px;
-            @media only screen and (max-width: 480px ){
+            @media only screen and (max-width: 780px ){
                 margin: 0 0;
                 padding: 0;
             }
@@ -43,7 +41,7 @@ header{
                     }
                     size: 35px;
                     @media only screen and (max-width: 480px ){
-                        font-size: 10px;
+                        font-size: 12px;
                     }
                 }
             }

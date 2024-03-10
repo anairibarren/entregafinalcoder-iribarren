@@ -41,12 +41,9 @@
   align-items: center;
   margin-bottom: 5px;
 }
-@media only screen and (max-widht: 840px) {
-  .service img {
-    width: 20%;
-  }
-  .service .service-info {
-    font-size: 10px;
+@media only screen and (max-width: 480px) {
+  .service .service-info:hover p {
+    opacity: 1;
   }
 }
 .service img {
@@ -63,11 +60,6 @@
 .service .service-info {
   margin-left: 30px;
   font-size: 18px;
-}
-@media only screen and (max-widht: 750px) {
-  .service .service-info {
-    font-size: 10px;
-  }
 }
 
 /*Body - Otros*/
@@ -142,10 +134,6 @@ h2 {
 }
 
 /*Header*/
-body {
-  background: linear-gradient(to bottom, #fbd2a1, #fff0df);
-}
-
 header {
   background-color: #fff0df;
 }
@@ -156,7 +144,7 @@ header div .image-logo {
 }
 @media only screen and (max-width: 480px) {
   header div .image-logo {
-    margin: 0 350px;
+    margin: 0 150px;
   }
 }
 header nav ul {
@@ -167,7 +155,7 @@ header nav ul {
   width: 100%;
   margin: 0 5px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 780px) {
   header nav ul {
     margin: 0 0;
     padding: 0;
@@ -185,7 +173,7 @@ header nav ul li a:hover {
 }
 @media only screen and (max-width: 480px) {
   header nav ul li a {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 

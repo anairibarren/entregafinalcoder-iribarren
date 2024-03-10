@@ -11,12 +11,9 @@
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-    @media only screen and (max-widht: 840px) {
-        img{ 
-            width: 20%;
-        }
-        .service-info{ 
-            font-size: 10px;
+    @media only screen and (max-width: 480px) {
+        .service-info:hover p{ 
+            opacity: 1;
             
         }
     }
@@ -32,8 +29,5 @@
     .service-info{ 
         margin-left: 30px;
         font-size: 18px;
-        @media only screen and (max-widht: 750px) {
-            font-size: 10px;
-        }
     }
 }
