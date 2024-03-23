@@ -9,9 +9,9 @@ header{
     background-color: #fff0df;
     div{ 
         .image-logo{ 
-            width: 15%;
+            width: 12%;
             height: 10%;
-            margin: 0 40%;
+            margin: 0 50%;
             border: 0;
             @media only screen and (max-width: 480px) { 
                 margin: 0 150px;
@@ -36,7 +36,7 @@ header{
 
                     text-decoration: none;
                     color: black;
-                    font-size: 20px;
+                    font-size: 18px;
                     font-family: "Annapurna SIL", serif;
                     &:hover{ 
                         text-decoration: underline;
@@ -72,7 +72,7 @@ section{
     color: black;
     text-align: center;
     text-decoration: underline;
-    font-size: 35px;
+    font-size: 30px;
     @media only screen and (max-width: 850px) {
         display: none;
     }
@@ -84,12 +84,13 @@ section{
                 margin-top: 15px;
             }
             .carousel-item{ 
-                img{ 
+                img{
+                    border: none; 
                     width: 100px;
                     height: auto; 
                 }
                 @media only screen and (max-width: 480px) { 
-                    width: 50%;
+                    width: 46%;
                     height: 40%
                 }
             }
@@ -97,11 +98,11 @@ section{
     }
 }
 /*Productos Varios*/
-.product-varios{ 
-    font-size: 35px;
+.varios{ 
+    font-size: 30px;
     text-align: center; 
     @media only screen and (max-width: 850px) {
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
     }
 }
@@ -114,17 +115,25 @@ section{
     margin: 30px ;
     
     @media only screen and (max-width: 870px) {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
         margin-top: 30px;
         margin-bottom: 30px;
         margin-right: 0px;
     }
     .card{ 
-
+        img{ 
+            border: none;   
+            @media only screen and (max-width:480px) {
+                border: none;
+                width: 15%;
+            }
+        }
         .card-body{ 
+            padding: 12px;
+
             .card-text{ 
-                font-size: 18px;
+                font-size: 15px;
                 @media only screen and (max-width: 480px) {
                     font-size: 10px;
                 }  
