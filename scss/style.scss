@@ -33,7 +33,6 @@ header{
             }
             li{       
                 a{
-
                     text-decoration: none;
                     color: black;
                     font-size: 18px;
@@ -43,7 +42,7 @@ header{
                     }
                     size: 35px;
                     @media only screen and (max-width: 480px ){
-                        font-size: 12px;
+                        font-size: 18px;
                     }
                 }
             }
@@ -90,8 +89,8 @@ section{
                     height: auto; 
                 }
                 @media only screen and (max-width: 480px) { 
-                    width: 46%;
-                    height: 40%
+                    width: 80px;
+                    height: 75px;
                 }
             }
         }
@@ -113,20 +112,21 @@ section{
     grid-template-rows: repeat(3, auto);
     gap: 10px;
     margin: 30px ;
-    
+    margin-left: 100px;
     @media only screen and (max-width: 870px) {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(7, 1fr);
         margin-top: 30px;
         margin-bottom: 30px;
         margin-right: 0px;
+        margin-left: 168px;
     }
     .card{ 
         img{ 
             border: none;   
             @media only screen and (max-width:480px) {
                 border: none;
-                width: 15%;
+                width: 20px;
             }
         }
         .card-body{ 
@@ -135,7 +135,7 @@ section{
             .card-text{ 
                 font-size: 15px;
                 @media only screen and (max-width: 480px) {
-                    font-size: 10px;
+                    font-size: 12px;
                 }  
             }
         }
@@ -194,7 +194,7 @@ footer{
         }
         .contact-mail{ 
             a{ 
-                font-size: 15px;
+                font-size: 10px;
                 text-decoration: none;
                 color: black;
                 &:hover{ 

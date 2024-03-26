@@ -10,22 +10,42 @@
     box-sizing: border-box ;
     display: flex;
     align-items: center;
-    img{ 
-        width: 40%;
-        height: auto;
-        border: 10px solid #fff0df;
-    }
-    .img-inag{ 
-        width: 30%;
-        height: auto;
-        border: 10px solid #fff0df;
-    }
-    .history-info{ 
-        margin-left: 30px;
-        font-size: 18px;
-        @media only screen and (max-width: 760px) {
-            font-size: 12px;
+    @media only screen and (max-width: 760px) {
+        .history-info{ 
+            display: none;
+        }
+        #nosotras{ 
+            font-size: 15px;
+            h2{ 
+                font-size: 20px;
+            }
         }
     }
-   
+    .history-info{
+        margin: 20px;
+       font-size: 17px;
+    }
+    
+    img{ 
+        width: 350px;
+        height: 250px;
+        border: 10px solid #fff0df;
+        @media only screen and (max-width:760px) {
+            margin-left: 150px;
+        }
+    }
+    .img-inag{ 
+        width: 300px;
+        height: 250px;
+        border: 10px solid #fff0df;
+    }
+    figcaption{ 
+        text-align: center;
+        display: none;
+        @media only screen and (max-width:760px) {
+            font-size: 12px;
+            color: black;
+           
+        }
+    }
 }
