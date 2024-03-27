@@ -42,7 +42,7 @@ header{
                     }
                     size: 35px;
                     @media only screen and (max-width: 480px ){
-                        font-size: 18px;
+                        font-size: 15px;
                     }
                 }
             }
@@ -89,8 +89,8 @@ section{
                     height: auto; 
                 }
                 @media only screen and (max-width: 480px) { 
-                    width: 80px;
-                    height: 75px;
+                    width: 160px;
+                    height: 100px;
                 }
             }
         }
@@ -119,23 +119,24 @@ section{
         margin-top: 30px;
         margin-bottom: 30px;
         margin-right: 0px;
-        margin-left: 168px;
+        margin-left: 50px;
     }
     .card{ 
+
         img{ 
             border: none;   
             @media only screen and (max-width:480px) {
                 border: none;
-                width: 20px;
+                width: 255px;
             }
         }
         .card-body{ 
             padding: 12px;
 
             .card-text{ 
-                font-size: 15px;
+                font-size: 20px;
                 @media only screen and (max-width: 480px) {
-                    font-size: 12px;
+                    font-size: 14px;
                 }  
             }
         }

@@ -28,18 +28,18 @@
   font-size: 17px;
 }
 .history img {
-  width: 350px;
-  height: 250px;
+  width: 260px;
+  height: 200px;
   border: 10px solid #fff0df;
 }
 @media only screen and (max-width: 760px) {
   .history img {
-    margin-left: 150px;
+    margin-left: 15px;
   }
 }
 .history .img-inag {
-  width: 300px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border: 10px solid #fff0df;
 }
 .history figcaption {
@@ -108,6 +108,11 @@ img {
   text-decoration: underline;
   font-size: 30px;
 }
+@media only screen and (max-width: 480px) {
+  #contacto {
+    font-size: 25px;
+  }
+}
 
 .contact-form {
   align-items: center;
@@ -119,6 +124,11 @@ img {
   color: black;
   font-size: 30px;
   text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  #ubicacion {
+    font-size: 25px;
+  }
 }
 
 .location-info {
@@ -246,7 +256,7 @@ header nav ul li a:hover {
 }
 @media only screen and (max-width: 480px) {
   header nav ul li a {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 
@@ -292,8 +302,8 @@ section #carousel .carousel-inner .carousel-item img {
 }
 @media only screen and (max-width: 480px) {
   section #carousel .carousel-inner .carousel-item {
-    width: 80px;
-    height: 75px;
+    width: 160px;
+    height: 100px;
   }
 }
 
@@ -325,7 +335,7 @@ section #carousel .carousel-inner .carousel-item img {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 0px;
-    margin-left: 168px;
+    margin-left: 50px;
   }
 }
 .grid .card img {
@@ -334,18 +344,18 @@ section #carousel .carousel-inner .carousel-item img {
 @media only screen and (max-width: 480px) {
   .grid .card img {
     border: none;
-    width: 20px;
+    width: 255px;
   }
 }
 .grid .card .card-body {
   padding: 12px;
 }
 .grid .card .card-body .card-text {
-  font-size: 15px;
+  font-size: 20px;
 }
 @media only screen and (max-width: 480px) {
   .grid .card .card-body .card-text {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
