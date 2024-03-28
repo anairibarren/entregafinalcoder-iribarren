@@ -56,7 +56,7 @@ section{
     .video{ 
         text-align: center;
         video{ 
-            width: 50%;
+            width: 45%;
             height: 45%;
             padding: 10px;  
             object-fit: cover;
@@ -85,8 +85,8 @@ section{
             .carousel-item{ 
                 img{
                     border: none; 
-                    width: 100px;
-                    height: auto; 
+                    width: 500px;
+                    height: 320px; 
                 }
                 @media only screen and (max-width: 480px) { 
                     width: 160px;
@@ -134,7 +134,7 @@ section{
             padding: 12px;
 
             .card-text{ 
-                font-size: 20px;
+                font-size: 15px;
                 @media only screen and (max-width: 480px) {
                     font-size: 14px;
                 }  

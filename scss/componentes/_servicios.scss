@@ -11,34 +11,94 @@
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-    @media only screen and (max-width: 480px) {
-        .service-info{
-            font-size: 10px;
-            p{ 
-                display: none;
-            }
-            h2{ 
-                font-size: 15px;
-            }
-        } 
+    
+    figure{ 
+        margin: 10px;
+    }
+    figcaption{ 
+        text-align: center;
+        display: none;
+        @media only screen and (max-width:760px) {
+            font-size: 14px;
+            color: black;
+            display: block;
+            margin-left: 140px;
+        }
     }
     }
     img{ 
-        width: 30%;
+        width: 300px;
         height: auto;
         border: 20px solid #fff0df;
+        margin: 5px;
         @media only screen and (max-width: 760px){
-            width: 45%;
+            width: 300px;
             height: auto;
             border: 10px solid #fff0df;
         }
     }
     .service-info{ 
-        margin-left: 30px;
-        font-size: 18px;
+        margin-left: 5px;
+        p{ 
+            font-size: 18px;
+        }
+        h2{ 
+            font-size: 25px;
+        }
         @media  only screen and (max-width: 760px) {
             font-size: 13px;
-            
+            display: none;
         }
     }
+.service-phone{
+    display: none;
+    @media only screen and (max-width:760px) {
+        display: block;
+    }
+    #regalos{ 
+        font-size: 15px;
+        background-color: #f8e7d3;
+        h2{ 
+            font-size: 20px;
+            text-align: center;
+            background-color: #fbe3c6;
+        }
+    }
+    #rincon{ 
+        font-size: 15px;
+        background-color: #f8e7d3;
+        h2{ 
+            font-size: 20px;
+            text-align: center;
+            background-color: #fbe3c6;
+        }
+    }
+    #taller{ 
+        font-size: 15px;
+        background-color: #f8e7d3;
+        h2{ 
+            font-size: 20px;
+            text-align: center;
+            background-color: #fbe3c6;
+        }
+    }
+    #aromaterapia{ 
+        font-size: 15px;
+        background-color: #f8e7d3;
+        h2{ 
+            font-size: 20px;
+            text-align: center;
+            background-color: #fbe3c6;
+        }
+    }
+    #mesas{ 
+        font-size: 15px;
+        background-color: #f8e7d3;
+        h2{ 
+            font-size: 20px;
+            text-align: center;
+            background-color: #fbe3c6;
+        }
+    }
+}
 

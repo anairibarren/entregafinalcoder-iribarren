@@ -14,38 +14,68 @@
         .history-info{ 
             display: none;
         }
-        #nosotras{ 
-            font-size: 15px;
-            h2{ 
-                font-size: 20px;
-            }
-        }
     }
     .history-info{
-        margin: 20px;
-       font-size: 17px;
+        margin: 15px;
+       font-size: 18px;
     }
     
     img{ 
-        width: 260px;
-        height: 200px;
+        width: 360px;
+        height: 260px;
         border: 10px solid #fff0df;
         @media only screen and (max-width:760px) {
-            margin-left: 15px;
+            margin-left: 20px;
         }
     }
     .img-inag{ 
-        width: 200px;
-        height: 200px;
+        width: 290px;
+        height: 270px;
         border: 10px solid #fff0df;
     }
     figcaption{ 
         text-align: center;
         display: none;
         @media only screen and (max-width:760px) {
-            font-size: 12px;
+            font-size: 14px;
             color: black;
-           
+            display: block;
+        }
+    }
+    figure{ 
+        margin: 50px;
+    }
+}
+.history-phone{ 
+    display: none;
+    @media only screen and (max-width:760px) {
+        display: block;
+    }
+    #inaguracion{ 
+        font-size: 15px;
+        background-color: #f8e7d3;
+        h2{ 
+            font-size: 20px;
+            text-align: center;
+            background-color: #fbe3c6;
+        }
+    }
+    #nosotras{ 
+        font-size: 15px;
+        background-color: #f8e7d3;
+        h2{ 
+            font-size: 20px;
+            text-align: center;
+            background-color: #fbe3c6;
+        }
+    }
+    #valores{ 
+        font-size: 15px;
+        background-color: #f8e7d3;
+        h2{ 
+            font-size: 20px;
+            text-align: center;
+            background-color: #fbe3c6;
         }
     }
 }

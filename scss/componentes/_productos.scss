@@ -24,15 +24,16 @@
 
   .product {
     background-color: #fff0df;
-    padding: 15px;
+    padding: 20px;
+    margin-right: 90px;
+    margin-left: 30px;
     box-sizing: border-box;
-    margin: 10px 15px;
     font-size: 15px;
     @media only screen and (max-width:760px) {
       padding: 10px;
       margin: 5px;
       h2{ 
-        font-size: 20px;
+        font-size: 15px;
       }
       p{ 
         font-size: 12px;
@@ -40,8 +41,8 @@
     }
   }
 .product img{ 
-  width: 80%;
-  height: 50%;
+  width: 260px;
+  height: 200px;
   @media only screen and (max-width: 760px) {
     width: 85%;
     height: auto;

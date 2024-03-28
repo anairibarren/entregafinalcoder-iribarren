@@ -16,30 +16,24 @@
   .history .history-info {
     display: none;
   }
-  .history #nosotras {
-    font-size: 15px;
-  }
-  .history #nosotras h2 {
-    font-size: 20px;
-  }
 }
 .history .history-info {
-  margin: 20px;
-  font-size: 17px;
+  margin: 15px;
+  font-size: 18px;
 }
 .history img {
-  width: 260px;
-  height: 200px;
+  width: 360px;
+  height: 260px;
   border: 10px solid #fff0df;
 }
 @media only screen and (max-width: 760px) {
   .history img {
-    margin-left: 15px;
+    margin-left: 20px;
   }
 }
 .history .img-inag {
-  width: 200px;
-  height: 200px;
+  width: 290px;
+  height: 270px;
   border: 10px solid #fff0df;
 }
 .history figcaption {
@@ -48,9 +42,49 @@
 }
 @media only screen and (max-width: 760px) {
   .history figcaption {
-    font-size: 12px;
+    font-size: 14px;
     color: black;
+    display: block;
   }
+}
+.history figure {
+  margin: 50px;
+}
+
+.history-phone {
+  display: none;
+}
+@media only screen and (max-width: 760px) {
+  .history-phone {
+    display: block;
+  }
+}
+.history-phone #inaguracion {
+  font-size: 15px;
+  background-color: #f8e7d3;
+}
+.history-phone #inaguracion h2 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fbe3c6;
+}
+.history-phone #nosotras {
+  font-size: 15px;
+  background-color: #f8e7d3;
+}
+.history-phone #nosotras h2 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fbe3c6;
+}
+.history-phone #valores {
+  font-size: 15px;
+  background-color: #f8e7d3;
+}
+.history-phone #valores h2 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fbe3c6;
 }
 
 /*Body - Servicios*/
@@ -67,39 +101,104 @@
   align-items: center;
   margin-bottom: 5px;
 }
-@media only screen and (max-width: 480px) {
-  .service .service-info {
-    font-size: 10px;
-  }
-  .service .service-info p {
-    display: none;
-  }
-  .service .service-info h2 {
-    font-size: 15px;
+.service figure {
+  margin: 10px;
+}
+.service figcaption {
+  text-align: center;
+  display: none;
+}
+@media only screen and (max-width: 760px) {
+  .service figcaption {
+    font-size: 14px;
+    color: black;
+    display: block;
+    margin-left: 140px;
   }
 }
 
 img {
-  width: 30%;
+  width: 300px;
   height: auto;
   border: 20px solid #fff0df;
+  margin: 5px;
 }
 @media only screen and (max-width: 760px) {
   img {
-    width: 45%;
+    width: 300px;
     height: auto;
     border: 10px solid #fff0df;
   }
 }
 
 .service-info {
-  margin-left: 30px;
+  margin-left: 5px;
+}
+.service-info p {
   font-size: 18px;
+}
+.service-info h2 {
+  font-size: 25px;
 }
 @media only screen and (max-width: 760px) {
   .service-info {
     font-size: 13px;
+    display: none;
   }
+}
+
+.service-phone {
+  display: none;
+}
+@media only screen and (max-width: 760px) {
+  .service-phone {
+    display: block;
+  }
+}
+.service-phone #regalos {
+  font-size: 15px;
+  background-color: #f8e7d3;
+}
+.service-phone #regalos h2 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fbe3c6;
+}
+.service-phone #rincon {
+  font-size: 15px;
+  background-color: #f8e7d3;
+}
+.service-phone #rincon h2 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fbe3c6;
+}
+.service-phone #taller {
+  font-size: 15px;
+  background-color: #f8e7d3;
+}
+.service-phone #taller h2 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fbe3c6;
+}
+.service-phone #aromaterapia {
+  font-size: 15px;
+  background-color: #f8e7d3;
+}
+.service-phone #aromaterapia h2 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fbe3c6;
+}
+.service-phone #mesas {
+  font-size: 15px;
+  background-color: #f8e7d3;
+}
+.service-phone #mesas h2 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fbe3c6;
 }
 
 /*Body - Otros*/
@@ -184,9 +283,10 @@ h2 {
 
 .product {
   background-color: #fff0df;
-  padding: 15px;
+  padding: 20px;
+  margin-right: 90px;
+  margin-left: 30px;
   box-sizing: border-box;
-  margin: 10px 15px;
   font-size: 15px;
 }
 @media only screen and (max-width: 760px) {
@@ -195,7 +295,7 @@ h2 {
     margin: 5px;
   }
   .product h2 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .product p {
     font-size: 12px;
@@ -203,8 +303,8 @@ h2 {
 }
 
 .product img {
-  width: 80%;
-  height: 50%;
+  width: 260px;
+  height: 200px;
 }
 @media only screen and (max-width: 760px) {
   .product img {
@@ -266,7 +366,7 @@ section .video {
   text-align: center;
 }
 section .video video {
-  width: 50%;
+  width: 45%;
   height: 45%;
   padding: 10px;
   object-fit: cover;
@@ -297,8 +397,8 @@ section .video video {
 }
 section #carousel .carousel-inner .carousel-item img {
   border: none;
-  width: 100px;
-  height: auto;
+  width: 500px;
+  height: 320px;
 }
 @media only screen and (max-width: 480px) {
   section #carousel .carousel-inner .carousel-item {
@@ -351,7 +451,7 @@ section #carousel .carousel-inner .carousel-item img {
   padding: 12px;
 }
 .grid .card .card-body .card-text {
-  font-size: 20px;
+  font-size: 15px;
 }
 @media only screen and (max-width: 480px) {
   .grid .card .card-body .card-text {
