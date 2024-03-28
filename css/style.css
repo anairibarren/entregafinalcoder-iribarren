@@ -29,12 +29,21 @@
 @media only screen and (max-width: 760px) {
   .history img {
     margin-left: 20px;
+    width: 280px;
+    height: 250px;
   }
 }
 .history .img-inag {
   width: 290px;
   height: 270px;
   border: 10px solid #fff0df;
+}
+@media only screen and (max-width: 760px) {
+  .history .img-inag {
+    width: 260px;
+    height: 250px;
+    margin-left: 40px;
+  }
 }
 .history figcaption {
   text-align: center;
@@ -49,6 +58,11 @@
 }
 .history figure {
   margin: 50px;
+}
+@media only screen and (max-width: 760px) {
+  .history figure {
+    margin: 0;
+  }
 }
 
 .history-phone {
@@ -113,7 +127,7 @@
     font-size: 14px;
     color: black;
     display: block;
-    margin-left: 140px;
+    margin-left: 0px;
   }
 }
 
@@ -319,14 +333,15 @@ header {
   background-color: #fff0df;
 }
 header div .image-logo {
-  width: 12%;
+  width: 150px;
   height: 10%;
-  margin: 0 50%;
+  margin-left: 700px;
   border: 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 760px) {
   header div .image-logo {
-    margin: 0 150px;
+    margin-left: 145px;
+    width: 110px;
     border: 0;
   }
 }
@@ -400,10 +415,16 @@ section #carousel .carousel-inner .carousel-item img {
   width: 500px;
   height: 320px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 760px) {
+  section #carousel .carousel-inner .carousel-item img {
+    width: 250px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 760px) {
   section #carousel .carousel-inner .carousel-item {
-    width: 160px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
   }
 }
 
@@ -438,8 +459,12 @@ section #carousel .carousel-inner .carousel-item img {
     margin-left: 50px;
   }
 }
+.grid .card {
+  margin-right: 20px;
+}
 .grid .card img {
   border: none;
+  margin: 0px;
 }
 @media only screen and (max-width: 480px) {
   .grid .card img {
@@ -515,7 +540,7 @@ footer .contact-info .contact-mail {
 footer .contact-info .contact-mail:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 760px) {
   footer .contact-info .contact-mail {
     font-size: 8px;
   }

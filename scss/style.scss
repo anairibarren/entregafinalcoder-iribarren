@@ -9,12 +9,13 @@ header{
     background-color: #fff0df;
     div{ 
         .image-logo{ 
-            width: 12%;
+            width: 150px;
             height: 10%;
-            margin: 0 50%;
+            margin-left: 700px;
             border: 0;
-            @media only screen and (max-width: 480px) { 
-                margin: 0 150px;
+            @media only screen and (max-width: 760px) { 
+                margin-left: 145px;
+                width: 110px;
                 border: 0;
             }
         }
@@ -87,10 +88,14 @@ section{
                     border: none; 
                     width: 500px;
                     height: 320px; 
+                    @media only screen and (max-width: 760px) { 
+                        width: 250px;
+                        height: 150px;
+                    }
                 }
-                @media only screen and (max-width: 480px) { 
-                    width: 160px;
-                    height: 100px;
+                @media only screen and (max-width: 760px) { 
+                    width: 250px;
+                    height: 150px;
                 }
             }
         }
@@ -122,9 +127,10 @@ section{
         margin-left: 50px;
     }
     .card{ 
-
+        margin-right: 20px;
         img{ 
             border: none;   
+            margin: 0px ;
             @media only screen and (max-width:480px) {
                 border: none;
                 width: 255px;
@@ -201,7 +207,7 @@ footer{
             &:hover{ 
                 text-decoration: underline;
             }
-            @media only screen and (max-width: 480px){ 
+            @media only screen and (max-width: 760px){ 
                 font-size: 8px;
             }
         }
